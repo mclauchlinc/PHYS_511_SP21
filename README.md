@@ -25,11 +25,6 @@ I highly reccomend you work inside the docker container as we've run into many i
 ## The Docker Path
 
 -   [ ] Get [docker](#docker-install) installed and running :arrow_left: This is my recomendation if you're not familiar with programming or are using windows.
--   [ ] Get [python](#required-python-packages) and packages installed :arrow_left: If you're alreay familiar with python and have it on your computer
--   [ ] Get ROOT built/installed :arrow_left: If you're already familiar with ROOT is and are doing research in nuclear or high energy physics
-
-
-
 
 ### Docker install
 
@@ -107,3 +102,6 @@ Documentation on installing conda for your operating system is located [here](ht
 
 Documentation on installing Jupyter Notebooks is located [here](https://jupyter.org/install)
 
+## The ROOT C++ Path
+
+If you would really prefer to work with C++ and ROOT, email me and we can work out a way to move forward with that as the setup will be, likely, more similar to how you'd work in the "real world" but will also require a bit more care in the setup
