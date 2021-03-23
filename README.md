@@ -49,13 +49,13 @@ If that works, great you're one more step to programming! Now run this command.
 macOS/Linux users run:
 
 ```bash
-docker run --rm -it -e USER="user" -p 9999:9999 -v $PWD:/home/user/data -w /home/user/data --entrypoint "jupyter" uofscphysics/root:v6_18_02 notebook --allow-root --ip=0.0.0.0 --port=9999
+docker run --rm -it -e USER="user" -p 9999:9999 -v $PWD:/home/user/data -w /home/user/data --entrypoint "jupyter" rootproject/root:6.22.06-conda notebook --allow-root --ip=0.0.0.0 --port=9999
 ```
 
 For windows computers change USERNAME in "C:/Users/USERNAME" to your username and run.
 
 ```bash
-docker run --rm -it -p 9999:9999 -v C:/Users/USERNAME:/home/user/data -w /home/user/data --entrypoint "jupyter" uofscphysics/root:v6_18_02 notebook --allow-root --ip=0.0.0.0 --port=9999
+docker run --rm -it -e USER="user" -p 9999:9999 -v $PWD:/home/user/data -w /home/user/data --entrypoint "jupyter" rootproject/root:6.22.06-conda notebook --allow-root --ip=0.0.0.0 --port=9999
 ```
 
 If you have macOS/Linux add this to your rc file to get make a useful function.
@@ -70,10 +70,16 @@ jupyter-root () {
         -v $HOME/.Xauthority:/home/user/.Xauthority \
         -w /home/user/data \
         -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
-        --entrypoint "jupyter" uofscphysics/root:v6_18_02 notebook --allow-root --ip=0.0.0.0 --port=9999;
+        --entrypoint "jupyter" rootproject/root:6.22.06-conda notebook --allow-root --ip=0.0.0.0 --port=9999;
 }
 ```
+at which point you can run 
 
+```bash
+jupyter-root
+```
+
+in order to run the container, and access your jupyter notebook through the URL that pops up in your terminal
 
 ### Required Python Packages
 
