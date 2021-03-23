@@ -1,23 +1,23 @@
-##PHYS 511 Nuclear Physics Coding Lab
+## PHYS 511 Nuclear Physics Coding Lab
 
 This github repository will be fully ready by our class in April, but in the meantime it will serve as a guide on all the pre-class pieces we need to put together. Below is a guide on how to properly prepare yourself and your computer for our labs at that time
 
-###Future Nuclear Physicsts
+### Future Nuclear Physicsts
 
 If you are planning on going into nuclear physics after this class, it is highly likely that you will encounter and use ROOT in the future. Therefore, I highly reccomend you do your work in this course with a ROOT focus. This will, unless you already have ROOT downloaded and compatible with Jupyter Notebooks, require you to download docker and work inside the container
 
-###Not Future Nuclear Physicsts
+### Not Future Nuclear Physicsts
 
 If you don't plan on continuing in nuclar physics after this class, it is highly reccomended that you stick with the purely python route. You're far more likely to come into contact with python down the line as ROOT is pretty much exclusively used in nuclear physics.
 
 Thus you have two paths before you:
 
 
-####Mac and Linux Users
+#### Mac and Linux Users
 
 You can either work inside the docker containers, or simply download conda and jupyter notebooks and work completely inside these frameworks, or download docker and work inside that container
 
-####Windows Users
+#### Windows Users
 
 I highly reccomend you work inside the docker container as we've run into many issues with trying to do otherwise in the past
 
