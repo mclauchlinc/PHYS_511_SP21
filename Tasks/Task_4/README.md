@@ -26,6 +26,9 @@ After you have extracted the μ values from each of the files use the labeling o
 ## Helpful Documentation
 
 [Fitting in ROOT](https://root.cern.ch/root/html534/guides/users-guide/FittingHistograms.html)
+
 [TF1](https://root.cern.ch/doc/v612/classTF1.html)
+
 [TGraph](https://root.cern.ch/doc/master/classTGraph.html)
+
 [Fitting with Optimize in Python](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html)
